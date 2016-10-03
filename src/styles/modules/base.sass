@@ -85,8 +85,9 @@ ul, li
 
 #app
   height: 100%
-  display: flex;
-  justify-content: center;
+  display: flex
+  justify-content: center
+  align-items: center
 
 .main-panel
   position: relative
@@ -95,7 +96,7 @@ ul, li
   display: flex
   flex-direction: column
   width: 100%
-  padding-left: 260px;
+  padding-left: 260px
 
 @media (max-width: 992px)
   .hidden-xs
@@ -198,8 +199,18 @@ a.btn-primary
   background-color: white
 
 .block-login
-    padding: 20px 0 0
-    max-width: 360px !important
+  padding: 20px 0 0
+  max-width: 360px !important
+  width: 340px
+
+@media (max-width: 768px)
+  .block-login
+    width: 100%
+  #app
+    display: initial
+
+.profile-image
+  border-radius: 50%
 
 .lowercase-input
   text-transform: lowercase
@@ -209,7 +220,7 @@ a.btn-primary
   border-radius: 6px
   border: 1px solid #e8e8e8
 
-.dashboard-list__element
+.list-element
   padding: 4px 0 4px 8px
   text-align: left
   &:not(:last-of-type)
@@ -217,6 +228,6 @@ a.btn-primary
   &:hover
     background-color: #edf7fd
 
-.dashboard-list__image
+.list-image
   height: 35px
   width: 35px
