@@ -18,6 +18,40 @@ class Dashboard extends Component {
         {accountHistory && <h2>Last Activity</h2>}
         {accountHistory && _.sortBy(accountHistory, 'timestamp').reverse().map(([id, transaction]) =>
           <Activity key={id} id={id} transaction={transaction} />) }
+        <div className="block block-dashboard">
+          <ul className="dashboard-list">
+            <li className="dashboard-list__element">
+              <img src="#" alt="asd "className="dashboard-list__image mrs" />
+              <strong className="dashboard-list__title">Some text</strong>
+              <span className="dashboard-list__description pls">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+              <i className="icon icon-md material-icons dashboard-list__icon">keyboard_arrow_right</i>
+            </li>
+            <li className="dashboard-list__element">
+              <img src="#" alt="asd" className="dashboard-list__image mrs" />
+              <strong className="dashboard-list__title">Some text</strong>
+              <span className="dashboard-list__description pls">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+              <i className="icon icon-md material-icons dashboard-list__icon">keyboard_arrow_right</i>
+            </li>
+          </ul>
+        </div>
+
+        
+        <div className="block block-dashboard">
+          <ul className="dashboard-list">
+            <li className="dashboard-list__element">
+              <img src="#" alt="asd "className="dashboard-list__image mrs" />
+              <strong className="dashboard-list__title">Some text</strong>
+              <span className="dashboard-list__description pls">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+              <i className="icon icon-md material-icons dashboard-list__icon">keyboard_arrow_right</i>
+            </li>
+            <li className="dashboard-list__element">
+              <img src="#" alt="asd" className="dashboard-list__image mrs" />
+              <strong className="dashboard-list__title">Some text</strong>
+              <span className="dashboard-list__description pls">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+              <i className="icon icon-md material-icons dashboard-list__icon">keyboard_arrow_right</i>
+            </li>
+          </ul>
+        </div>
       </div>
     );
   }
