@@ -5,10 +5,10 @@ import Logout from './auth/Logout';
 import Profile from './app/Settings';
 import Authorize from './auth/Authorize';
 import Developer from './developer/Developer';
-import Dashboard from './containers/dashboard/Dashboard';
-import Apps from './containers/apps/Apps';
-import Payments from './containers/payments/Payments';
-import Activity from './containers/activity/Activity';
+import Dashboard from './dashboard/Dashboard';
+import Apps from './apps/Apps';
+import Payments from './payments/Payments';
+import Activity from './activity/Activity';
 
 module.exports = (
   <Route path="/" component={Wrapper}>

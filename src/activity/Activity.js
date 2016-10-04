@@ -2,7 +2,7 @@ import { bindActionCreators } from 'redux';
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import _ from 'lodash';
-import Header from '../../app/header';
+import Header from '../app/header';
 
 class Activity extends Component {
   render() {
