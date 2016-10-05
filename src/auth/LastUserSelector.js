@@ -59,7 +59,9 @@ class LastUserSelector extends Component {
           username={username} onDelete={this.onDelete}
         />
       )) }
-      <span className="form-span">Log In with your Steem<br /> account</span>
+      <div className="pvm">
+        <span className="form-span">Log In with your Steem<br /> account</span>
+      </div>
       <form className="form" onSubmit={this.handleSubmit}>
         <fieldset className="form-group man mhs">
           <i className="icon icon-md material-icons form-icon">account_box</i>

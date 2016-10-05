@@ -39,8 +39,10 @@ class Login extends Component {
     } else {
       view = (<div>
         <div>
-          {selectedUser && <EditImageHeader username={selectedUser} />}
-          @{selectedUser}
+          <div className="pvs">
+            {selectedUser && <EditImageHeader username={selectedUser} />}
+            @{selectedUser}
+          </div>
           <form className="form" onSubmit={this.handleSubmit}>
             <fieldset className="form-group">
               <input type={selectedUser ? 'hidden' : 'text'} placeholder="Username" defaultValue={selectedUser} className="form-control form-control-lg lowercase-input" ref={(c) => { this.username = c; }} />
