@@ -8,7 +8,7 @@ import { setAvatar, accountUpdate, clearUpdatingProfileResult } from './../actio
 import PasswordDialog from './../widgets/PasswordDialog';
 import Header from './../app/header';
 
-class Settings extends Component {
+class Profile extends Component {
 
   constructor(props) {
     super(props);
@@ -147,7 +147,7 @@ class Settings extends Component {
   }
 }
 
-Settings.propTypes = {
+Profile.propTypes = {
   clearUpdatingProfileResult: PropTypes.func,
   accountUpdate: PropTypes.func,
   setAvatar: PropTypes.func,
@@ -163,4 +163,4 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch =>
   (bindActionCreators({ setAvatar, accountUpdate, clearUpdatingProfileResult }, dispatch));
 
-module.exports = connect(mapStateToProps, mapDispatchToProps)(Settings);
+module.exports = connect(mapStateToProps, mapDispatchToProps)(Profile);

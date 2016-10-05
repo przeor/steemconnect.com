@@ -2,13 +2,13 @@ import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 import Wrapper from './wrapper';
 import Logout from './auth/Logout';
-import Profile from './app/Settings';
 import Authorize from './auth/Authorize';
 import Developer from './developer/Developer';
 import Dashboard from './dashboard/Dashboard';
 import Apps from './apps/Apps';
 import Payments from './payments/Payments';
 import Activity from './activity/Activity';
+import Profile from './profile/Profile';
 
 module.exports = (
   <Route path="/" component={Wrapper}>
