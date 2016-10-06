@@ -43,6 +43,9 @@ class Login extends Component {
       view = (<div>
         <div>
           <div className="pvs form-span" style={loginBoxStyle}>
+            <span className="change-user">
+              <a onClick={this.props.showUserList}>Not you?</a>
+            </span>
             {selectedUser && <EditImageHeader username={selectedUser} />}
             @{selectedUser}
           </div>
