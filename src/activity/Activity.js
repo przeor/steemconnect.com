@@ -52,34 +52,41 @@ class Activity extends Component {
             <ul className="list list-activity">
               <li className="list-element pas">
                 <div className="list-container">
-                  <h3 className="list-title man">Some text</h3>
-                  <span className="list-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                  <h3 className="list-title man">Upvote</h3>
+                  <span className="list-description">For "New Advanced Formatting Features" by @dan</span>
                 </div>
                 <span className="list-date">28 September</span>
               </li>
               <li className="list-element pas">
                 <div className="list-container">
-                  <h3 className="list-title man">Some text</h3>
-                  <span className="list-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                  <h3 className="list-title man">Post</h3>
+                  <span className="list-description">Oslo Steemit hackaton with Ned Scott</span>
                 </div>
                 <span className="list-date">today</span>
               </li>
               <li className="list-element pas">
                 <div className="list-container">
-                  <h3 className="list-title man">Some text</h3>
-                  <span className="list-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                  <h3 className="list-title man">Transfer of 120.000 STEEM</h3>
+                  <span className="list-description">To @dan</span>
                 </div>
                 <span className="list-date">today</span>
               </li>
               <li className="list-element pas">
                 <div className="list-container">
-                  <h3 className="list-title man">Some text</h3>
-                  <span className="list-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                  <h3 className="list-title man">Upvote</h3>
+                  <span className="list-description">For "It's time for a Steem Bounty System!" by @ned</span>
+                </div>
+                <span className="list-date">today</span>
+              </li>
+              <li className="list-element pas">
+                <div className="list-container">
+                  <h3 className="list-title man">Transfer of 56.00 SBD</h3>
+                  <span className="list-description">To @jesf</span>
                 </div>
                 <span className="list-date">today</span>
               </li>
             </ul>
-            <div className="list-more paxs">
+            <div className="list-more pas">
               <a href="#">See more</a>
             </div>
           </div>
